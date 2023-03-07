@@ -1,0 +1,163 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 6368px;
+    background: #FFFFFF;
+}
+
+header{
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    background: #52503B;
+}
+
+nav{
+    position: absolute;
+    width: 1200px;
+    height: 60px;
+    left: 120px;
+    top: 10px;
+}
+
+nav img{
+    position: absolute;
+    height: 45px;
+    width: 128px;
+    left: 0px;
+    top: 10px;
+}
+
+#navigation{
+    position: absolute;
+    height: 60px;
+    width: 253px;
+    left: 473.5px;
+    top: 0px;
+    display: flex;
+}
+
+#navigation span{
+    position: relative;
+    margin: 0px;
+    margin-left: 13px;
+    margin-right: 12px;
+    height: 20px;
+    top: 20px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+#navigation a:link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#navigation a:visited{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#navigation a:hover{
+    text-decoration: none;
+    color: #a4a17b;
+}
+.bookButton{
+    position: absolute;
+    height: 42px;
+    width: 117px;
+    left: 1083px;
+    top: 9px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 11px;
+    box-sizing: border-box;
+
+    color: #52503B;
+}
+
+.bookButton a:link{
+    text-decoration: none;
+    color: #52503B;
+}
+
+.bookButton a:visited{
+    text-decoration: none;
+    color: #52503B;
+}
+
+.bookButton a:hover{
+    text-decoration: none;
+    color: #52503B;
+    font-size: 19px;
+}
+
+.mainPage{
+    height: 800px;
+    width: 1440px;
+    left: 0px;
+    top: 0px;
+}
+
+.mainPage img{
+    position: absolute;
+    height: 720px;
+    width: 1440px;
+    left: 0px;
+    top: 80px;
+
+}
+
+.mainPageInfo{
+    position: absolute;
+    height: 303.5px;
+    width: 1200px;
+    left: 120px;
+    top: 270px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mainPageInfo img{
+    position: absolute;
+    height: 90px;
+    width: 256px;
+    left: 470px;
+    top: 0px;
+    border-radius: 0px;
+}
+
+.mainPageInfo span{
+    position: absolute;
+    width: 1174px;
+    height: 106px;
+    left: 13px;
+    top: 124px;
+
+    font-size: 48px;
+    line-height: 53px;
+}
+
+.mainPageInfo p{
+    position: absolute;
+    width: 291px;
+    height: 20px;
+    left: 455px;
+    top: 264px;
+
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
